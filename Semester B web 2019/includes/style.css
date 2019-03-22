@@ -61,7 +61,6 @@ a{
   
 }
 
-
 body header{
     padding-top:40px;
     padding-bottom: 40px;
@@ -151,22 +150,20 @@ main{
 
 
 #FiveLinks{
-    
   padding-bottom: 53px; 
   padding-left:200px;
+  
 }
 
 #FiveLinks a{
-    position: fixed;
-    background: #515151; 
+    padding-left: 50px;
+   
 }
 
 #FiveLinks span{
-    
+    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    padding-left: 20px;
-    padding-top: 150px;
 }
 
 #FiveLinks a{
@@ -177,3 +174,5 @@ main{
 #OtherLinks{
   padding-top: 42px;  
 }
+
+/* TAL */
