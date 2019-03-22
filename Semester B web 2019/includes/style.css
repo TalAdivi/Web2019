@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header,main,footer,section,nav,aside,article {
+    display:block;
+}
+
+a{
+    text-decoration: none;
+} 
+
+.Icons img{
+    width: 40px;
+    height: 40px;
+}
+
+.Icons li span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 18px;
+    position: absolute;
+}
+
+.Icons li span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 18px;
+    position: absolute;
+}
+
+.Icons li{
+    padding-top: 30px;
+    list-style: none;
+}
+.imgPadding img{
+    padding-right: 30px;
+}
+
+.links{
+    padding-bottom: 40px;
+}
+
+.links a{
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    text-decoration: none;
+    padding-right: 25px;
+    color:#000000;
+    
+}
+
+
+.links a:hover{
+    color:#2404da;
+    text-decoration: underline;
+  
+}
+
+
+body header{
+    padding-top:40px;
+    padding-bottom: 40px;
+    background-image: url(/images/icon3.png);
+    width:auto;
+    height:auto;
+    display:block;
+    background-repeat: no-repeat;
+}
+body{
+    padding-left: 125px;
+    padding-top: 75px;
+    background-color: #f2f2f2
+}
+body header a{
+    font-family: Arial;
+    font-size: 50px;
+    padding-left:125px; 
+    color: #000000; 
+}
+
+main section h1{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+main section p{
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+main section h2{
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+#BackImg{
+    padding-bottom: 135px;
+    width: 570px;
+    height: 417px;
+}
+
+#FrontImg{
+    position: relative;
+    right: 255px;
+    width: 350px;
+    height: 453px;
+    
+}
+
+#LenguagesGap{
+    padding-bottom: 89px;
+}
+
+
+footer{
+    background: #515151;
+    padding-top:69.5px;
+    padding-left: 125px;
+    
+}
+
+main{
+    padding-bottom: 58px;
+}
+
+.Boundary{
+    height:1px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    
+}
+
+#Git a{  
+    position: absolute;
+    background: #C6B393; 
+}
+
+#Git span{
+    float: right;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+#FiveLinks{
+    
+  padding-bottom: 53px; 
+  padding-left:200px;
+}
+
+#FiveLinks a{
+    position: fixed;
+    background: #515151; 
+}
+
+#FiveLinks span{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 150px;
+}
+
+#FiveLinks a{
+    padding-right: 100px;
+}
+
+
+#OtherLinks{
+  padding-top: 42px;  
+}
