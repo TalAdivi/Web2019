@@ -88,6 +88,8 @@ body{
 #wrapper{
     padding-left: 125px;
     padding-top: 75px;  
+    width: auto;
+    margin: auto;
 }
 
 
