@@ -129,8 +129,6 @@ main section h2{
 #FrontImg{
     position: relative;
     right: 255px;
-    width: 350px;
-    height: 453px;
     transition:all 0.5s ease;
 }
 
@@ -210,7 +208,7 @@ main{
     padding-right: 19px;  
   }
 
-  #OtherLinks img{
+#OtherLinks img{
     height: 25px;
     width: 25px;  
   }
