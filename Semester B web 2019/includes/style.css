@@ -14,11 +14,6 @@ a{
 .Icons img{
     width: 40px;
     height: 40px;
-    transition:all 0.2s ease;
-}
-
-.Icons img:hover{
-    transform:scale(1.3);
 }
 
 
@@ -36,12 +31,8 @@ a{
 }
 .imgPadding img{
     padding-right: 30px;
-    transition:all 0.5s ease;
 }
 
-.imgPadding img:hover{
-    transform:scale(1.05);
-}
 
 .links{
     padding-bottom: 40px;
@@ -70,17 +61,9 @@ body header{
     background-image: url(../images/icon3.png);
     width:auto;
     height:auto;
-    display:block;
     background-repeat: no-repeat;
-    transition:all 0.3s ease;
-    display:inline-block;
-    overflow: hidden;
 }
 
-
-body header:hover{
-    transform:scale(1.05);
-}
 body{
     background-color: #f2f2f2;
 }
@@ -119,22 +102,14 @@ main section h2{
     padding-bottom: 135px;
     width: 570px;
     height: 417px;
-    transition:all 0.5s ease;
 }
 
-#BackImg:hover{
-    transform:scale(1.05);
-}
 
 #FrontImg{
     position: relative;
     right: 255px;
-    transition:all 0.5s ease;
 }
 
-#FrontImg:hover{
-    transform:scale(1.05);
-}
 
 #LenguagesGap{
     padding-bottom: 89px;
