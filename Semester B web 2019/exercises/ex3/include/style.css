@@ -23,7 +23,72 @@ a {
     text-decoration: none;
 }
 
-#wrapper {
+
+footer {
+    float:left;
+    width: 100%;
+    height: 41px;
+    background-color: #000000;
+}
+
+ul{
+    width: 300px;
+    height: 33px;
+    margin: 50px auto;
+    background-color: blueviolet;
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+    margin: 0px auto;
+    margin-left: 15px; 
+}
+
+ul li:hover{
+    text-decoration: underline;
+}
+
+ul li span{
+    font-size: 24px;
+    color: #000000;
+    /* background-color: aqua; */
+}
+
+.boxes div {
+    /* float: right; */
+    position: absolute;
+    background-color: aquamarine;
+}
+
+article {
+    background-color: black;
+    width: 126px;
+    height: 94px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.dot{
+    position: relative;
+    display: block;
+    height: 14px;
+    width: 14px; 
+    bottom: 4px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
+
+
+/* --layout1-- */
+
+#layout1 #wrapper {
     width: 881px;
     height: 624px;
     margin: 0px auto;
@@ -31,16 +96,6 @@ a {
     margin-bottom:145px; 
     /* background-color: #333333; */
 }
-
-footer {
-    width: 100%;
-    height: 41px;
-    background-color: #000000;
-}
-
-/* #layout1 main {
-    background-color: #333333;
-} */
 
 #layout1 .text {
     position: relative;
@@ -192,102 +247,98 @@ footer {
     left: 30px;
 }
 
+/* --layout2-- */
+
 #layout2 .dot{
     left: 110px;
 }
 
-
-ul{
-    width: 300px;
-    height: 33px;
-    margin: 50px auto;
-    background-color: blueviolet;
-    list-style-type: none;
-}
-
-ul li{
-    float: left;
+#layout2 #wrapper{
+    width: 1440px;
+    height: 624px;
     margin: 0px auto;
-    margin-left: 15px; 
+    /* margin-top: 119px; */
+   
 }
 
-ul li:hover{
-    text-decoration: underline;
-}
-
-ul li span{
-    font-size: 24px;
-    color: #000000;
-    /* background-color: aqua; */
-}
-
-.boxes div {
-    float: right;
-    position: absolute;
-    background-color: aquamarine;
-}
-
-article {
-    background-color: black;
-    width: 126px;
-    height: 94px;
-    margin-top: 15px;
-    margin-left: 15px;
-    float: left;
-}
-
-.clear {
-    clear: both;
-}
-
-/* #layout1 ul {
-    display: block;
-    position: relative;
-    width: 350px;
-    margin: 0px auto;
-    margin-top: 52px;
-    margin-bottom: 38px;
-    list-style-type: none;
-}
-
-#layout1 ul li {
-    position: relative;
-    font-family: "Ariel";
-    font-style: oblique;
-    font-size: 24px;
-    float: left;
-    width: 33.33%;
-    margin: 0px auto;
-}
-
-#layout1 ul li:hover {
-    text-decoration: underline;
-} */
-
-/* .selected .dot {
-    display: block;
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    background-color: red;
-    border-radius: 50%;
-    margin: -12px 20px;
-} */
-
-.dot{
-    position: relative;
-    display: block;
-    height: 14px;
-    width: 14px; 
-    bottom: 4px;
-    background-color: red;
-    border-radius: 50%;
+.flex-container{
     
 }
 
+.flex-container div {
+    float:left;
+    background-color: aquamarine;
+    margin-right: 55px; 
+}
 
+#layout2 .box1{
+    width: 457px;
+    height: 299px;
+}
 
+#layout2 .box2{
+    margin-top: 150px; 
+    margin-bottom: -80px;
+    width: 457px;
+    height: 299px;
+    
+}
 
+#layout2 .box3{   
+    width: 457px;
+    height: 299px;
+}
+
+#layout2 .box4{  
+    margin-top: 150px; 
+    margin-bottom: -80px; 
+    width: 457px;
+    height: 299px;
+}
+
+#layout2 .box5{   
+    width: 457px;
+    height: 299px;
+}
+
+#layout2 .box6{  
+    margin-top: 150px; 
+    margin-bottom: -80px; 
+    width: 457px;
+    height: 299px;
+}
+
+#layout2 .box7{   
+    width: 457px;
+    height: 299px;
+}
+
+#layout2 .box8{  
+    margin-top: 150px; 
+    margin-bottom: -80px; 
+    width: 457px;
+    height: 299px;
+}
+
+#layout2 .box9{   
+    width: 457px;
+    height: 265px;
+}
+
+#layout2 .box10{  
+    margin-top: 150px; 
+    margin-bottom: -80px; 
+    width: 457px;
+    height: 115px;
+}
+ 
+
+#layout2 aside{
+    float: right;
+    background-color: yellow;
+    width: 169px;
+    height: 1925px;
+}
 
 /* lec_4_46 */
 
