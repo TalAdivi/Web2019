@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header, section, nav, aside, footer {
+    display: block;
+}
+
+body {
+    background-image: url(../images/pattern.jpg);
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 1004px;
+}
+
+header {
+    background-color: #282828;
+    width: 1004px;
+    height: 180px;
+    color: White;
+}
+
+nav {
+    background-color: #d56325;
+    width: 1004px;
+    height: 150px;
+}
+
+section {
+    background-color: #6c6a66;
+    width: 754px;
+    float: left;
+    height: 200px;
+}
+
+aside {
+    background-color: #bfc5b5;
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+
+footer {
+    background-color: #aa4f1e;
+}
+
+.clear {
+    clear: both;
+}

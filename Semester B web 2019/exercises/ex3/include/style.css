@@ -25,6 +25,7 @@ a {
 
 
 footer {
+
     position: relative;
     width: 100%;
     height: 41px;
@@ -35,7 +36,6 @@ ul{
     width: 300px;
     height: 33px;
     margin: 50px auto;
-    /* background-color: blueviolet; */
     list-style-type: none;
 }
 
@@ -52,11 +52,10 @@ ul li:hover{
 ul li span{
     font-size: 24px;
     color: #000000;
-    /* background-color: aqua; */
+    font-family: 'Amiko';
 }
 
 .boxes div {
-    /* float: right; */
     position: absolute;
     background-color: aquamarine;
 }
@@ -94,7 +93,6 @@ article {
     margin: 0px auto;
     margin-top: 91px;
     margin-bottom:145px; 
-    /* background-color: #333333; */
 }
 
 #layout1 .text {
@@ -102,7 +100,6 @@ article {
     float: left;
     width: 50%;
     height: 120px;
-    /* background-color: blue; */
     
 }
 
@@ -125,7 +122,6 @@ article {
     float: left;
     width: 50%;
     height: 624px;
-    /* background-color: red; */
 }
 
 #layout1 .box1 {
@@ -169,7 +165,6 @@ article {
     left: 32px;
     width:25px;
     height: 26px;
-
 }
 
 #layout1 .box7{
@@ -177,7 +172,6 @@ article {
     left: 149px;
     width:246px;
     height: 352px;
-
 }
 
 #layout1 .box8{
@@ -185,7 +179,6 @@ article {
     left: 149px;
     width:123px;
     height: 212px;
-
 }
 
 #layout1 .box9{
@@ -193,7 +186,6 @@ article {
     left: 286px;
     width:55px;
     height:105px;
-
 }
 
 #layout1 .box10{
@@ -247,22 +239,19 @@ article {
     left: 30px;
 }
 
+
 /* --layout2-- */
 
 #layout2 .dot{
     left: 110px;
 }
 
-#layout2 #wrapper{
-    /* width: 1289px; */
-    width: 1289px;
-    height: 1775px;
+#layout2 #wrapper{   
+    width: 1440px;
+    height: 1860px;
     margin: 0px auto;
-   
-   
 }
-
-.flex-container .firstBlackBox{
+ .firstBlackBox{
     margin-top:119px;
     float: left;
     height: 80px;
@@ -270,7 +259,7 @@ article {
     background-color:#000000; 
 }
 
-.flex-container .whiteBox{
+ .whiteBox{
     margin-top:247px;
     float: right;
     height: 80px;
@@ -278,8 +267,8 @@ article {
     background-color:#ffffff; 
 }
 
-.flex-container .secondBlackBox{
-    margin-top:616px;
+ .secondBlackBox{
+    margin-top:417px; 
     float: left;
     height: 80px;
     width: 80px;
@@ -287,8 +276,7 @@ article {
 }
 
 .sideText{
-    margin-top:1420px;
-   position: relative;
+    margin-top:1500px;
 }
 
 .sideText span{
@@ -306,9 +294,9 @@ article {
 
 .flex-container #leftBoxes{
     float: right;
-    padding-top:119px;
+    margin-top: 119px;
     width: 457px;
-    height: 1775px;
+    height: 2024px;
 }
 
 .flex-container #leftBoxes div{
@@ -317,11 +305,12 @@ article {
 
 .flex-container #rightBoxes{
     float: right;
-    padding-top:257px; 
+    margin-top:287px; 
     width: 457px;
-    height: 1775px;
+    height: 1860px;
     margin-left:55px;
     margin-right: 151px;
+  
 }
 
 .flex-container #rightBoxes div{
@@ -330,7 +319,6 @@ article {
 
 
 .flex-container div {
-    
     background-color: #7fffd4;
 }
 
@@ -338,14 +326,7 @@ article {
     float: right;
     background-color:#ffff00;
     width: 169px;
-    height: 1800px;
-    
-     
-}
-
-
-#layout2{
-    
+    height: 1901px;
 }
 
 #layout2 .box1{
@@ -371,8 +352,7 @@ article {
 
 #layout2 .box5{   
     width: 457px;
-    height: 205px;
-    /* height: 265px; */
+    height: 265px;
 }
 
 #layout2 .box6{   
@@ -392,32 +372,14 @@ article {
 
 #layout2 .box9{   
     width: 457px;
-    height: 265px;
+    height: 299px;
 }
 
 #layout2 .box10{  
     width: 457px;
-    height: 115px;
+    height: 97px;
 }
  
 
+/* --layout 3-- */
 
-
-/* lec_4_46 */
-
-#brand {
-    position: relative;
-    width: 450px;
-    height: 150px;
-    background:#ff0000;
-}
-
-#brand p {
-    position: absolute;
-    right: 0px;
-    top: 15px;
-    text-align: center;
-    background: #ffff00;
-}
-
-/* /lec_4_46 */
