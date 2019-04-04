@@ -15,15 +15,27 @@ window.onload = function () {
 
 var show = function()
 {
-    // var x = document.getElementById("pageTitle");
-    // if(x.innerHTML.includes("second"))
-    //     document.getElementById("pageTitle").innerHTML="<h1>Main Title</h1>";
-    // else{
+    var x = document.getElementById("pageTitle");
+    if(x.innerHTML.includes("!"))
+        document.getElementById("pageTitle").innerHTML="<h1>" + Date() + "</h1>";
+    else{
         document.getElementById("pageTitle").innerHTML="<i> second!</i>";       
-    // }
+    }
 }
 
+var num = 5 ,stringNum = "5";
 
+console.log(num != stringNum);
+
+var arr = ["tal","adivi","dafi"];
+
+console.log(arr.join('-'));
+alert(num + " " + stringNum);
+
+
+// console.log(Math.log2(32));
+
+// console.log(document.createComment('TalAdivi'));
 
 
 // (function() { 

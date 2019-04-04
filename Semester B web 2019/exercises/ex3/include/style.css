@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+  
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 
 main, nav, article, aside, section, header, footer {
     display: block;
+    background-color: #ff0000;
 }
 
 header {
@@ -58,15 +60,6 @@ ul li span{
 .boxes div {
     position: absolute;
     background-color: aquamarine;
-}
-
-article {
-    background-color:#000000;
-    width: 126px;
-    height: 94px;
-    margin-top: 15px;
-    margin-left: 15px;
-    float: left;
 }
 
 .clear {
