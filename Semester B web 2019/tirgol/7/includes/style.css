@@ -1,0 +1,17 @@
+h1 {
+    background-color: aquamarine;
+    font-size: 80px;
+}
+
+
+imgDyn{
+    border:2px dotted #666668;
+    display: block;
+}
+
+imgDyn:hover{
+    border: 2px solid #999999;
+}
+
+
+

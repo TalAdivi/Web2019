@@ -10,7 +10,6 @@ body {
 
 main, nav, article, aside, section, header, footer {
     display: block;
-    background-color: #ff0000;
 }
 
 header {
@@ -376,3 +375,45 @@ ul li span{
 
 /* --layout 3-- */
 
+#layout3{
+    /* background-color:grey; */
+}
+
+#layout3 .dot{
+    left:215px;
+}
+
+#layout3 header{
+
+}
+
+#layout3 #greenBox{
+    width:104px;
+    height:995px;
+    float:right;
+    background-color: rgba(24, 239, 33, 0.3);
+}
+
+#layout3 #yellowBox{
+    width:1440px;
+    height:463px;
+    background-color: #EBEF18;
+
+}
+
+#layout3 #layoutsLinks{
+    float: left;
+    width:372px;
+    height:995px;
+    background-color:#E5E5E5;
+}
+
+#layout3 #layoutsLinks ul{
+    margin-top:123px;
+}
+
+#layout3 #wrapper{
+    width: 1440px;
+    height:1623px;
+    margin: 0px auto;
+}
