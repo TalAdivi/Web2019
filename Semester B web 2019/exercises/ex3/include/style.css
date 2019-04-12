@@ -383,14 +383,28 @@ ul li span{
     left:215px;
 }
 
-#layout3 header{
-
+#layout3 #squareMaker{
+    display:block;
+    float: right;
+    margin:21px;
+    margin-right: 24px;
+    /* position: absolute; */
+    width: 80px;
+    height: 80px;
+    background-color: #000000;
 }
+
+/* #layout3 main section span{
+    color:white;
+} */
 
 #layout3 #greenBox{
     width:104px;
     height:995px;
-    float:right;
+    position: relative;
+    left:1336px;
+
+    /* float:right; */
     background-color: rgba(24, 239, 33, 0.3);
 }
 
@@ -416,4 +430,8 @@ ul li span{
     width: 1440px;
     height:1623px;
     margin: 0px auto;
+}
+
+#layout3 main{
+    width:1370px;
 }
