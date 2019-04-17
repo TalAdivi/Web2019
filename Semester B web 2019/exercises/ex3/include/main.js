@@ -1,8 +1,8 @@
 var blackSquareMaker = document.getElementById("squareMaker");      //reference to square maker
 var mainRef = document.getElementsByTagName("main")[0];             //reference to main
 var globCounter = 0;                                                //counting squares
-var arraySquare = [];                                               //all squares will insert here
 var validClickCounter = 0;                                          //counting clicks on squers only 
+var arraySquare = [];                                               //all squares will insert here
 var arrayLetter = [];                                               //letters will insert here and will be compared
 
 (function Square() {
