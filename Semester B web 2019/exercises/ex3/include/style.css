@@ -388,9 +388,6 @@ ul li a{
 
 /* --layout 3-- */
 
-#layout3{
-    /* background-color:grey; */
-}
 
 #layout3 .dot{
     left:215px;
@@ -405,17 +402,15 @@ ul li a{
     width: 80px;
     height: 80px;
     background-color: #000000;
-
+    
 }
-
+        
 
 #layout3 #greenBox{
     width:104px;
     height:995px;
     position: relative;
     left:1336px;
-
-    /* float:right; */
     background-color: rgba(24, 239, 33, 0.3);
 }
 
@@ -446,3 +441,39 @@ ul li a{
 #layout3 main{
     width:1370px;
 }
+
+
+@media only screen and (max-width: 480px) {
+    #layout3 #wrapper{
+        width: 455px;
+    }
+    
+    #layout3 #greenBox{
+        display: none;
+    }
+    
+    
+    #layout3 #layoutsLinks{
+        width:100%;
+        height: 120px;
+        float: none;
+        padding-top: 1px;
+    }
+
+    #layout3 #yellowBox{
+        width:100%;
+    }
+
+    #layout3 #layoutsLinks ul {
+        margin-top: 33px;
+    }
+    
+    }
+    
+    @media only screen and (min-width: 481px) and  (max-width: 768px){
+    
+    }
+    
+    @media only screen and (min-width: 769px){
+    
+    }
