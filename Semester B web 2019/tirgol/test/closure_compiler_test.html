@@ -1,0 +1,31 @@
+<html>
+  <body>
+    <script src="includes/d3.min.js"></script>
+    <script src="includes/main.js"></script>
+      <svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" version="1.1">
+        <rect width="80" height="80" x="50" y="50" />  
+        <circle cx="100" cy="200" r="30" fill="red" />
+        <polygon points="10,10  20,10  20,30  10,30" />
+          </svg>
+          <g>
+
+          </g>
+
+          
+    <form action="https://closure-compiler.appspot.com/compile" method="POST">
+    <p>Type JavaScript code to optimize here:</p>
+    <textarea name="js_code" cols="50" rows="5">
+    function hello(name) {
+      // Greets the user
+      alert('Hello, ' + name);
+    }
+    hello('New user');
+    </textarea>
+    <input type="hidden" name="compilation_level" value="SIMPLE_OPTIMIZATIONS">
+    <input type="hidden" name="output_format" value="text">
+    <input type="hidden" name="output_info" value="compiled_code">
+    <br><br>
+    <input type="submit" value="Optimize">
+    </form>
+  </body>
+</html>

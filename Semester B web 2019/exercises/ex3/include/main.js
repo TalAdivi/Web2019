@@ -72,7 +72,7 @@ var parseSquare = function (squareSpan, squareIndex) {
             setTimeout(function(){                                                      //the user can see for 1 sec the letter before disappear            
                 fLetter.style.display = "none";
                 sLetter.style.display = "none";        
-                },1000);
+                },500);
             }
         }
 
