@@ -23,12 +23,12 @@ var arrayLetter = [];                                               //letters wi
     var firstSquare = document.createElement("section");
     firstSquareCss(firstSquare);
     arraySquare.push(firstSquare);
-    currLen = arraySquare.length;                                                    //global, there is functions that cant receive arraySquare.length as parameter.
+    currLen = arraySquare.length;                                   //global, there is functions that cant receive arraySquare.length as parameter.
 
 })();
 
 var generateLetter = function () {
-    var letterOptions = "ABCDEFGHIJKMNLOPQRSTUVWXYZ";                                //letter bank
+    var letterOptions = "TALADIVI";                                //letter bank
     var newSpen = document.createElement("span");
     newSpen.style.display = "none";
     newSpen.style.margin = "auto";
@@ -46,7 +46,7 @@ blackSquareMaker.onclick = function () {    //creating 3 squares
         generateLetter();
         newSquare.style.width = parseInt(squareStyle.width) + 20 + "px";
         newSquare.style.height = parseInt(squareStyle.height) + 20 + "px";
-        newSquare.style.fontSize = parseInt(squareStyle.fontSize) + 5 + "px"////
+        newSquare.style.fontSize = parseInt(squareStyle.fontSize) + 5 + "px"
         newSquare.className = "Square_" + globCounter++;                                //each square get unique class name
         arraySquare.push(newSquare);
         currLen = arraySquare.length;                                                   //updating currLen
@@ -95,105 +95,3 @@ document.addEventListener("click", function (currSection) {
         parseSquare(x, arrayIndex);
     }
 });
-
-
-// var countingSort = function (letter) {
-//     var letterIndex = letter.charCodeAt(0) - 65;
-//     // console.log("letterIndex = " + letterIndex);
-//     auxArray[letterIndex] += 1;
-//     // console.log("auxArray[letterIndex] = " + auxArray[letterIndex]);
-
-//     if (auxArray[letterIndex] % 2 == 0) {
-//         console.warn("Match");
-
-//     }
-
-// }
-
-
-
-// var blackSquare = {
-//     height: 80,
-//     width:80,
-//     letter:letterOptions.charAt(Math.floor(Math.random() * letterOptions.length))
-// };
-
-// mainRef.appendChild(blackSquare);
-
-
-// console.log(blackSquare);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//                                                     //global square - css values will update
-
-// var blackSquareMaker = document.getElementById("squareMaker");  //refernce to square maker
-// var mainRef = document.getElementsByTagName("main")[0];
-// var squareArray = [];
-// var globCounter = 0;
-// var firstSquare = document.createElement("section");
-// var firstSquareStyle = window.getComputedStyle(blackSquareMaker);
-
-// firstSquare.style.cssFloat = "Left";
-// firstSquare.style.height = parseInt(firstSquareStyle.width) + 20 + "px";
-// firstSquare.style.width = parseInt(firstSquareStyle.height) + 20 + "px";
-// firstSquare.style.background = "black";
-// firstSquare.style.margin = "64px" 
-// squareArray.push(firstSquare);
-
-// blackSquareMaker.onclick = function () {                        //click event
-
-//     insertCssVals(squareArray);
-// }
-
-
-// insertCssVals = function(squares){
-
-//     for (var i = 0 ; i < 3 ; ++i){
-
-//         var firstSquare = squares.pop();
-//         var currSquareStyle = window.getComputedStyle(currSquare);
-//         currSquare.setAttribute("id","square" + globCounter++ );
-//         currSquare.onclick = function(){
-//             var options = "ABCDEFGHIJKMNLOPQRSTUVWXYZ";
-//             var letter = document.createElement("span");
-//             console.log(letter.innerHTML = options.charAt(Math.floor(Math.random() * options.length)));
-//             console.log(currSquare.appendChild(letter));
-//         }
-//         mainRef.appendChild(currSquare);
-//         currSquare = currSquare.cloneNode(true);
-//         currSquare.style.height = parseInt(currSquareStyle.height) + 20 + "px";
-//         currSquare.style.width = parseInt(currSquareStyle.width) + 20 + "px";
-
-
-//         squares.push(currSquare);
-//     }
-
-// }
-
-
-
-
-    //squareArray.push(document.createElement("section"));
-
-    //   blackSquareMaker.onclick = function () {                        //click event
-    //     var mainRef = document.getElementsByTagName("main")[0];
-    //     var squareArray = document.createElement("section");
-    //     var squareArrayStyle = window.getComputedStyle(blackSquareMaker);
-  //     squareArray = blackSquareMaker.cloneNode(true);
-  //     squareArray.style.cssFloat = "left"
-  //     console.log(squareArray.style.height += parseInt(squareArrayStyle.height) + 20 + "px");
-  //     mainRef.appendChild(squareArray);
-  //     // console.log(squareArray.style);
-  //   }

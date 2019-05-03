@@ -1,9 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-  
 }
-
 
 body {
     font-family: Arial;
@@ -73,7 +71,6 @@ ul li a{
     bottom: 4px;
     background-color:#ff0000;
     border-radius: 50%;
-    
 }
 
 
@@ -92,7 +89,6 @@ ul li a{
     float: left;
     width: 50%;
     height: 120px;
-    
 }
 
 #layout1 .text h1{
@@ -148,8 +144,7 @@ ul li a{
     top:582px;
     left: 0px;
     width:25px;
-    height: 26px;
-    
+    height: 26px; 
 }
 
 #layout1 .box6{
@@ -187,14 +182,12 @@ ul li a{
     height:58px;
 }
 
-
 #layout1 .box11{
     top:0px;
     right:0px;
     width:28px;
     height:55px;
 }
-
 
 #layout1 .box12{
     top:66px;
@@ -203,7 +196,6 @@ ul li a{
     height:55px;
 }
 
-
 #layout1 .box13{
     top:132px;
     right: 0px;
@@ -211,14 +203,12 @@ ul li a{
     height:55px;
 }
 
-
 #layout1 .box14{
     top:198px;
     right: 0px;
     width:28px;
     height:198px;
 }
-
 
 #layout1 .box15{
     top:412px;
@@ -245,7 +235,6 @@ ul li a{
 }
 
 #layout2 footer {
-
     position: fixed;
     width: 100%;
     height: 41px;
@@ -298,7 +287,6 @@ ul li a{
     float: right;
     margin-top: 119px;
     width: 457px;
-    
     height: 2024px;
 }
 
@@ -312,8 +300,7 @@ ul li a{
     width: 457px;
     height: 1860px;
     margin-left:55px;
-    margin-right: 151px;
-  
+    margin-right: 151px; 
 }
 
 .flex-container #rightBoxes div{
@@ -340,7 +327,6 @@ ul li a{
 #layout2 .box2{
     width: 457px;
     height: 299px;
-    
 }
 
 #layout2 .box3{   
@@ -355,7 +341,6 @@ ul li a{
 
 #layout2 .box5{   
     width: 457px;
-    /* height: 265px; */
     height: 299px;
 }
 
@@ -381,13 +366,11 @@ ul li a{
 
 #layout2 .box10{  
     width: 457px;
-    /* height: 97px; */
     height: 299px;
 }
  
 
 /* --layout 3-- */
-
 
 #layout3 .dot{
     left:215px;
@@ -398,11 +381,9 @@ ul li a{
     float: right;
     margin:21px;
     margin-right: 24px;
-    /* position: absolute; */
     width: 80px;
     height: 80px;
     background-color: #000000;
-    
 }
         
 
@@ -410,7 +391,7 @@ ul li a{
     width:104px;
     height:995px;
     position: relative;
-    left:1336px;
+    float: right;
     background-color: rgba(24, 239, 33, 0.3);
 }
 
@@ -418,7 +399,6 @@ ul li a{
     width:1440px;
     height:463px;
     background-color: #EBEF18;
-
 }
 
 #layout3 #layoutsLinks{
@@ -445,17 +425,16 @@ ul li a{
 
 @media only screen and (max-width: 480px) {
     #layout3 #wrapper{
-        width: 455px;
+        width: 100%;
     }
     
     #layout3 #greenBox{
-        display: none;
+        display: none;   
     }
-    
     
     #layout3 #layoutsLinks{
         width:100%;
-        height: 120px;
+        height: 105px;
         float: none;
         padding-top: 1px;
     }
@@ -467,13 +446,10 @@ ul li a{
     #layout3 #layoutsLinks ul {
         margin-top: 33px;
     }
-    
+
+    #layout3 main{
+        width:100%;
     }
     
-    @media only screen and (min-width: 481px) and  (max-width: 768px){
+}
     
-    }
-    
-    @media only screen and (min-width: 769px){
-    
-    }
