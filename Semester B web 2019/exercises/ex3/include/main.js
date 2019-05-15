@@ -28,7 +28,7 @@ var arrayLetter = [];                                               //letters wi
 })();
 
 var generateLetter = function () {
-    var letterOptions = "TALADIVI";                                //letter bank
+    var letterOptions = "TALDIV";                                   //letter bank
     var newSpen = document.createElement("span");
     newSpen.style.display = "none";
     newSpen.style.margin = "auto";
@@ -56,20 +56,20 @@ blackSquareMaker.onclick = function () {    //creating 3 squares
 var parseSquare = function (squareSpan, squareIndex) {                              
     arrayLetter[validClickCounter++] = { letter: squareSpan, index: squareIndex };      //to save the former square details
 
-    if (validClickCounter % 2 == 0) {                                                   //if there is 2 clicks start to compare
+    if (validClickCounter % 2 == 0) {                                                   //if there is 2 valid clicks start to compare
         var fLetter = arrayLetter[validClickCounter - 1].letter;
         var sLetter = arrayLetter[validClickCounter - 2].letter;
         var fIndex = arrayLetter[validClickCounter - 1].index;
         var sIndex = arrayLetter[validClickCounter - 2].index;
          validClickCounter = 0;                                                         //init valid clicks counter
-         
+
         if (fLetter.innerText == sLetter.innerText && fIndex != sIndex) {               //if there is match between letters and its not the same square
             exposuredSquare(fIndex);
             exposuredSquare(sIndex);
         }
 
         else{
-            setTimeout(function(){                                                      //the user can see for 1 sec the letter before disappear            
+            setTimeout(function(){                                                      //the user can see for 0.5 sec the letter before disappear            
                 fLetter.style.display = "none";
                 sLetter.style.display = "none";        
                 },500);

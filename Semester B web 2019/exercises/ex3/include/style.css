@@ -290,7 +290,7 @@ ul li a{
     height: 2024px;
 }
 
-.flex-container #leftBoxes div{
+.flex-container div{
     margin-bottom: 70px;
 }
 
@@ -303,13 +303,11 @@ ul li a{
     margin-right: 151px; 
 }
 
-.flex-container #rightBoxes div{
-    margin-bottom: 70px;
-}
-
 
 .flex-container div {
     background-color: #7fffd4;
+    width: 457px;
+    height: 299px;
 }
 
 #layout2 aside{
@@ -318,57 +316,6 @@ ul li a{
     width: 169px;
     height: 1901px;
 }
-
-#layout2 .box1{
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box2{
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box3{   
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box4{   
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box5{   
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box6{   
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box7{   
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box8{   
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box9{   
-    width: 457px;
-    height: 299px;
-}
-
-#layout2 .box10{  
-    width: 457px;
-    height: 299px;
-}
- 
 
 /* --layout 3-- */
 
