@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#miniWrapper{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.col-sm-10{
+  margin-left: -70px;
+}
