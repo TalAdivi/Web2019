@@ -1,0 +1,427 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main, nav, article, aside, section, header, footer {
+    display: block;
+}
+
+#mainWrapper{
+    /* width: 70%; */
+    width: 1400px;
+    margin: 0px auto;
+}
+
+#middleWrapper{
+    margin: 0px auto;
+    margin-left: 250px;
+    /* width: 85%; */
+    width: 1000px;
+    height:1200px ;
+}
+
+.list-group{
+    width: 50%;
+}
+
+#logo{ 
+    display: block;
+    background-image: url(../images/newLogo.png);
+    width: 164px;
+    height: 130px;
+    background-repeat: no-repeat;
+
+}
+
+.clear{
+    clear: both;
+}
+
+#logoWidth{
+    float: left;
+    position: relative;
+    display: block;
+    width: 164px;
+}
+
+
+
+#search{
+    margin-top:60px;
+    margin-left: 85px;  
+    /* background-color:yellow;  */
+    float: left;
+    height: 40px;
+    width: 250px;
+}
+
+
+#profile{
+    /* position: absolute; */
+    position: relative;
+    margin-top:10px;
+    width: 78px;
+    height: 104px;
+    float: right;
+    /* background-color: #4dd0e1; */
+    text-align: center;
+}
+
+#navBar{
+    margin-top: 20px;
+    /* background-color: #4dd0e1; */
+    width: 210px;
+    height: 487px;
+    float: left;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #8c9298 !important;
+}
+
+#currPageTitle{
+    display: block;
+    position: absolute;
+    /* background-color: #4dd0e1; */
+    float: left;
+    width: 276px;
+    height: 50px;
+    font-size: 17pt;
+    text-align: left;
+}
+
+.alert{
+    border-radius: 0 1.25rem 1.25rem 0 !important;
+}
+
+
+.myTable{
+    margin-top: 70px;
+    position: relative;
+    /* background-color: #4dd0e1; */
+    float: left;
+    width: 923px;
+}
+
+#newUserTable{
+    margin-top: 70px;
+    position: relative;
+    background-color: #4dd0e1;
+    float: left;
+    width: 923px;
+    height: 355px;
+}
+
+
+.nav-link{
+    width: 210px;
+    margin-top:10px;
+}
+
+.nav-link img{
+    width:30px;
+    height:30px;
+    float: right;
+}
+
+
+
+#custom-search-form {
+    margin:0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#custom-search-form .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-form button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.search-query:focus + button {
+    z-index: 3;   
+}
+
+
+#wishes{   /*  wishes  title  */
+    background-color: gray;
+    margin-left: 460px;
+    margin-top: 40px;
+    color: white;
+    height: 40px;    
+    width: max-content;
+    /* width: 80px; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 60%;
+    font-size: 23px;
+}
+
+#title_name{  /*name title    */
+    background-color: teal;
+    margin-left: 125px; 
+    color: white;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 60%;
+    font-size: 23px;
+    display: inline-table;
+}
+
+#title_subject{   /*subject title    */
+    background-color: teal;
+    position: relative;
+    float: right;
+    /* margin-right: 905px; */
+    color: white;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 60%;
+    font-size: 23px;
+    margin-right: 80px;
+   
+}
+
+.table{   /*   table spaces    */
+width: 100%;
+border-top: none; 
+}
+
+#see_more{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn{
+    width: 14px;
+    height: 14px;
+    background: red;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+#wishesTable{
+    margin-top: 70px;
+    position: relative;
+    /* background-color: #4dd0e1;  */
+    float: left;
+    width: 923px;
+    height: 355px;
+}
+
+#move_word{
+    float: right;
+    margin-right: 80px;
+}
+
+.handleWish{
+height: 501px;
+}
+
+
+.breadcrumb{
+    margin-bottom: 0.3rem !important;
+    width: max-content !important;
+    border-radius: 0 0.85rem 0.85rem 0 !important ;
+    margin-top: -1.8rem !important;
+}
+
+.notes{
+    background-color: #d9edf7;
+    width: 474px;
+    height: 100px;
+    margin-top:68px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.notes span{
+    margin-left: 25px;
+}
+
+.wishesTable td{
+    text-align: center;
+}
+
+/* .goalText{
+    margin-top: 100px;
+    background-color: #cccccc;
+    height: 60px;
+    width: 140px;
+    border-radius:30px;
+    text-align: center; 
+} */
+
+.progress{
+    margin-top: 35px; 
+}
+
+.progress-bar{
+    background-color:#32CD32 ;
+
+}
+
+.badge{
+    font-size: 18px !important;
+}
+
+.badge-primary{
+    background-color: #6c757d !important;
+    margin-top: 80px;
+}
+
+.badge-secondary{
+    background-color: #ffcc80 !important;
+    margin: 0 50%;
+}
+
+.badge-danger{
+
+}
+.badge-success{
+    margin-top: 5px;
+    float:right;
+}
+
+.themeBadge{
+    position: relative;
+ opacity: 0.4;
+ width:250px !important;
+ height: 180px !important;  
+ padding: 55px !important;
+}
+
+.themeBadge:hover{
+    opacity: 0.6;
+}
+
+.themeBadge img{
+    margin-left: -95px !important;
+    position: absolute;
+    width: 227px;
+    height: 129px;
+    margin-top: -30px !important;
+    right: 10px;
+}
+
+
+a:hover{
+    font-weight: bold;
+}
+
+/* .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+    content: none; }
+    .bc-icons-2 .breadcrumb-item.active {
+    color: #455a64; } */
+
+.chooseMeal{
+    width: 291px;
+    height: 268px;
+    background-color: #4dd0e1;
+    margin-top: 75px;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+#mealSumBadge{
+    /* display: block !important; */
+    position: relative !important;
+    margin-top: 370px;
+    /* float: left; */
+    right: 240px;
+}
+
+.mealSumTalbe{
+    width: 291px;
+    height: 268px;
+    background-color: red;
+    margin-top: 20px;
+    float: left;
+    position: absolute;
+    display: block;
+}
+
+#dailyMealSumBadge{
+    display: block;
+    position: relative;
+   top:230px;
+   left: 64px;
+    float: left;
+}
+
+.dailyMealSumTalbe{
+    width: 291px;
+    height: 268px;
+    background-color: green;
+    /* margin-top: 170px; */
+    bottom: 93px;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.mealTable{
+    width: 450px;
+    height: 775px;
+    background-color: brown;
+    margin-top: 75px;
+    float: right;
+    position: relative;
+    display: block;
+    top: 0px;
+}
+
+.done-btn{
+    display: block !important;
+    position: relative ;
+    float: right;
+    bottom:150px;
+    /* padding: 18px !important; */
+    height: 60px;
+    width: 143px;
+    font-size: 1.5rem !important;
+
+}
+
+#falseButton{
+    margin-top: 5px;    
+    float: left;
+}
+
+.btn-primary{
+    background-color: #62c462 !important;
+    border-color: #62c462 !important;
+}
+
+#colorButton{
+    margin-top: 5px;
+    float: right;
+}
+
+.searchIcon{
+    height: 20px;
+}

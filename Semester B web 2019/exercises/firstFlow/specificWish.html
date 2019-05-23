@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Zion Wish</title>
+    <link rel="stylesheet" href="includes/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="includes/jquery-3.3.1.min.js"></script>
+    <script src="includes/main.js"></script>
+</head>
+
+<body>
+    <div id="mainWrapper">
+
+        <a href="index.html" id="logoWidth">
+            <div id="logo"></div>
+        </a>
+        <div id="search">
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                            <div class="input-append span12">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+            <!-- <div class="input-group mb-3">
+                <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2"></span>
+                      </div>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+            </div> -->
+
+            <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon1"><img src="./images/Search_Icon_1.png" class="searchIcon"></button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+
+
+
+            
+        </div>
+        <div id="profile"><img src="./images/profilePic.png"><span>Log Out</span></div>
+        <div class="clear"></div>
+        <div id="navBar">
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                        <a class="nav-link " id="v-pills-home-tab" href="index.html" aria-selected="true">Home <img
+                                src="images/Home_Icon_2.png"></a>
+                        <a class="nav-link active" id="v-pills-profile-tab" href="handleWish.html"
+                            aria-selected="true">Handle Wish <img src="images/Image_9.png"></a>
+                        <a class="nav-link " id="v-pills-messages-tab" href="#v-pills-messages" role="tab"
+                            aria-selected="false">Create new user <img src="images/Person_Add_Icon_1.png"></a>
+                        <a class="nav-link" id="v-pills-settings-tab" href="#v-pills-settings" role="tab"
+                            aria-selected="false">My diets <img src="images/Food_Apple_Icon_1.png"></a>
+                        <a class="nav-link" id="v-pills-settings-tab" href="#v-pills-settings" role="tab"
+                            aria-selected="false">My workouts <img src="images/Image_4.png"></a>
+                        <a class="nav-link" id="v-pills-settings-tab" href="#v-pills-settings" role="tab"
+                            aria-selected="false">Account manager <img src="images/Image_5.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="middleWrapper">
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <!-- <li class="breadcrumb-item"><a href="index.html">Home</a></li> -->
+                    <li class="breadcrumb-item"><a href="handleWish.html">Handle Wish</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Zion Wish</li>
+                </ol>
+            </nav>
+
+            <div class="alert alert-primary" id="currPageTitle" role="alert">Handle Wish</div>
+
+
+            <div class="notes">
+                <span>blablabla</span>
+            </div>
+
+            <div class="myTable handleWish table-hover">
+                <div id="wishes"> Zion Wishes </div>
+                <table class="table">
+                    <tbody class="wishesTable">
+                        <tr>
+
+                            <th>
+                                <div id="btn"></div>
+                            </th>
+                            <td><b>Haim Moshe</b></td>
+
+                        </tr>
+                        <tr>
+                            <th>
+                                <div id="btn"></div>
+                            </th>
+                            <td><b>Zion Baruchi</b></td>
+
+                        </tr>
+                        <tr>
+                            <th>
+                                <div id="btn"></div>
+                            </th>
+                            <td><b>Eran Zehavit</b></td>
+
+                        </tr>
+                        <tr>
+                            <th>
+                                <div id="btn"></div>
+                            </th>
+                            <td><b id="see_more">see more</b></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <span class="badge badge-pill badge-primary">Goal:<br>Loss 10KG</span>
+                <!-- <div class="goalText"> <b>Goal:<br>Loss 10KG</b></div> -->
+
+                <!-- <div class="durationText"><b>Duration:<br> 30days</br></div> -->
+
+                <span class="badge badge-pill badge-secondary">Duration:<br> 30days</br></span>
+                <span class="badge badge-pill badge-danger">Start:<br> 1/1/19</span>
+                <span class="badge badge-pill badge-success">End:<br>1/2/23</span>
+
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax=""
+                        style="width: 50%"></div><br>
+
+
+                    <!-- <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="" style="width: 50%"></div> -->
+                </div>
+
+                <div >
+
+                </div>
+
+                <button class="btn btn-info" id="falseButton">Indeterminate</button>
+                <button class="btn btn-info" id="colorButton">Random Color</button>
+                
+                <div class="clear"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <span class="badge badge-pill badge-primary themeBadge"> <img
+                                    src="./images/Food_Apple_Icon_1Large.png">Diet</span>
+                        </div>
+                        <div class="col-sm">
+                            <span class="badge badge-pill badge-primary themeBadge"> <img
+                                    src="./images/Image_4Large.png">Workout</span>
+                        </div>
+                        <div class="col-sm">
+                            <span class="badge badge-pill badge-primary themeBadge"> <img
+                                    src="./images/Image_6Large.png">Calendar</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- NAV BAR -->
+
+<!-- <img src="images/33567-4-house-targaryen-file.png" width="50px" height="50px" style="float: right" > -->
