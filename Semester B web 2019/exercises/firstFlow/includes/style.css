@@ -1,6 +1,12 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+h4{
+    font-family: 'Montaga', serif !important;
 }
 
 main, nav, article, aside, section, header, footer {
@@ -107,7 +113,7 @@ main, nav, article, aside, section, header, footer {
 #newUserTable{
     margin-top: 70px;
     position: relative;
-    background-color: #4dd0e1;
+    /* background-color: #4dd0e1; */
     float: left;
     width: 923px;
     height: 355px;
@@ -120,12 +126,46 @@ main, nav, article, aside, section, header, footer {
 }
 
 .nav-link img{
-    width:30px;
-    height:30px;
     float: right;
 }
 
+.icons{
+    width:30px;
+    height:30px;
+}
 
+.tableIcon{
+    position: absolute;
+    left: 0px;
+}
+th {
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+#circle_table {
+    border-collapse:separate;
+    border:solid #dee2e6 1px !important;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+.nameLink{
+    color: #565656;
+    font-weight: bold;
+}
+
+.nameLink:hover{
+    text-decoration: none;
+    color: #000000 ;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
 
 #custom-search-form {
     margin:0;
@@ -216,10 +256,18 @@ border-top: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#btn{
+.redDot{
     width: 14px;
     height: 14px;
     background: red;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+.orangeDot{
+    width: 14px;
+    height: 14px;
+    background: orange;
     border-radius: 100%;
     margin-top: 5px;
 }
@@ -290,7 +338,8 @@ height: 501px;
 
 .badge-primary{
     background-color: #6c757d !important;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    color: #fff;
 }
 
 .badge-secondary{
@@ -340,17 +389,18 @@ a:hover{
 .chooseMeal{
     width: 291px;
     height: 268px;
-    background-color: #4dd0e1;
+    /* background-color: #4dd0e1; */
     margin-top: 75px;
     float: left;
     position: relative;
     display: block;
+    /* border-style: solid; */
 }
 
 #mealSumBadge{
     /* display: block !important; */
     position: relative !important;
-    margin-top: 370px;
+    margin-top: 335px;
     /* float: left; */
     right: 240px;
 }
@@ -358,7 +408,7 @@ a:hover{
 .mealSumTalbe{
     width: 291px;
     height: 268px;
-    background-color: red;
+    /* background-color: red; */
     margin-top: 20px;
     float: left;
     position: absolute;
@@ -368,7 +418,7 @@ a:hover{
 #dailyMealSumBadge{
     display: block;
     position: relative;
-   top:230px;
+   top:310px;
    left: 64px;
     float: left;
 }
@@ -376,9 +426,9 @@ a:hover{
 .dailyMealSumTalbe{
     width: 291px;
     height: 268px;
-    background-color: green;
+    /* background-color: green; */
     /* margin-top: 170px; */
-    bottom: 93px;
+    bottom: 130px;
     float: left;
     position: relative;
     display: block;
@@ -387,7 +437,7 @@ a:hover{
 .mealTable{
     width: 450px;
     height: 775px;
-    background-color: brown;
+    /* background-color: brown; */
     margin-top: 75px;
     float: right;
     position: relative;
@@ -399,13 +449,17 @@ a:hover{
     display: block !important;
     position: relative ;
     float: right;
-    bottom:150px;
+    bottom:195px;
     /* padding: 18px !important; */
     height: 60px;
     width: 143px;
     font-size: 1.5rem !important;
 
 }
+
+/* .btn-info:focus{
+
+} */
 
 #falseButton{
     margin-top: 5px;    
@@ -424,4 +478,109 @@ a:hover{
 
 .searchIcon{
     height: 20px;
+}
+
+input.form-control {
+    /* width: 190px; */
+    text-align: center;
+  }
+
+  .addIcon{
+      margin: 5px;
+      float: left;
+      height: 15px;
+      width: 15px;
+  }
+  th{
+      text-align: center !important;
+      font-size: 1.1rem !important;
+  }
+
+ 
+
+  .chooseMealRow{
+    margin-top: 10px;
+    height: 90px !important;
+    text-align: center;
+    
+  }
+
+  /* input.chooseMealSelect{
+      width;
+  }  */
+ 
+  .form-control{
+      /* text-align: center; */
+  }
+  .chooseMealActive{
+    /* font-weight: bold !important; */
+    background-color: lightgray !important; 
+  }
+
+  .btn-outline-secondary{
+      width: 265px;
+      border: 0px !important;
+      color: black !important;
+  }
+
+
+  button:active {
+    border: 2px solid green;
+}
+
+#Wishes_title{
+    margin-left: 360px;
+    height: 40px;
+    width: 100px;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: none;
+}
+
+#name_left{
+    margin-left: 20px
+ }
+
+
+.table thead th{
+     /* border: none;  */
+    border-bottom:none !important;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!! */
+.table th{
+    width: 80px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!! */
+
+#remove_top_border{
+    border-top: 0px;
+}
+
+#center{
+    text-align: center;
+    background: gray;
+    border: 1px solid black;
+}
+
+
+
+.usersTable{
+    border: 1px solid black !important;
+    border-collapse: collapse;
+    border-radius: 1.5em;
+    overflow: hidden;
+}
+
+.goalBadge{
+    margin-top: 100px;
+}
+
+.searchBtn{
+    border-color: #343a40 !important;
+}
+
+.dietWorkoutCalendar{
+    margin-top: 80px;
 }

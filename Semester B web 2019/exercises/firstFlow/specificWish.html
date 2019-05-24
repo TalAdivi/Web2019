@@ -3,10 +3,11 @@
 
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet">
     <title>Zion Wish</title>
     <link rel="stylesheet" href="includes/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="includes/jquery-3.3.1.min.js"></script>
     <script src="includes/main.js"></script>
 </head>
@@ -18,29 +19,10 @@
             <div id="logo"></div>
         </a>
         <div id="search">
-            <!-- <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <form id="custom-search-form" class="form-search form-horizontal pull-right">
-                            <div class="input-append span12">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div> -->
-
-
-
-            <!-- <div class="input-group mb-3">
-                <div class="input-group-append">
-                        <span class="input-group-text" id="basic-addon2"></span>
-                      </div>
-                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
-            </div> -->
 
             <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                      <button class="btn btn-outline-secondary" type="button" id="button-addon1"><img src="./images/Search_Icon_1.png" class="searchIcon"></button>
+                      <button class="btn searchBtn" type="button" id="button-addon1"><img src="./images/Search_Icon_1.png" class="searchIcon"></button>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
                   </div>
@@ -49,7 +31,7 @@
 
             
         </div>
-        <div id="profile"><img src="./images/profilePic.png"><span>Log Out</span></div>
+        <div id="profile"><img src="./images/profilePic.png"><span><a href="#">Log Out</a></span></div>
         <div class="clear"></div>
         <div id="navBar">
 
@@ -58,17 +40,17 @@
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
                         <a class="nav-link " id="v-pills-home-tab" href="index.html" aria-selected="true">Home <img
-                                src="images/Home_Icon_2.png"></a>
+                                src="images/Home_Icon_2.png" class="icons"></a>
                         <a class="nav-link active" id="v-pills-profile-tab" href="handleWish.html"
-                            aria-selected="true">Handle Wish <img src="images/Image_9.png"></a>
+                            aria-selected="true">Handle Wish <img src="images/Image_9.png" class="icons"></a>
                         <a class="nav-link " id="v-pills-messages-tab" href="#v-pills-messages" role="tab"
-                            aria-selected="false">Create new user <img src="images/Person_Add_Icon_1.png"></a>
+                            aria-selected="false">Create new user <img src="images/Person_Add_Icon_1.png" class="icons"></a>
                         <a class="nav-link" id="v-pills-settings-tab" href="#v-pills-settings" role="tab"
-                            aria-selected="false">My diets <img src="images/Food_Apple_Icon_1.png"></a>
+                            aria-selected="false">My diets <img src="images/Food_Apple_Icon_1.png" class="icons"></a>
                         <a class="nav-link" id="v-pills-settings-tab" href="#v-pills-settings" role="tab"
-                            aria-selected="false">My workouts <img src="images/Image_4.png"></a>
+                            aria-selected="false">My workouts <img src="images/Image_4.png" class="icons"></a>
                         <a class="nav-link" id="v-pills-settings-tab" href="#v-pills-settings" role="tab"
-                            aria-selected="false">Account manager <img src="images/Image_5.png"></a>
+                            aria-selected="false">Account manager <img src="images/Image_5.png" class="icons"></a>
                     </div>
                 </div>
             </div>
@@ -86,51 +68,48 @@
                 </ol>
             </nav>
 
-            <div class="alert alert-primary" id="currPageTitle" role="alert">Handle Wish</div>
+            <div class="alert alert-primary" id="currPageTitle" role="alert"><h4>Handle Wish</h4></div>
 
 
             <div class="notes">
                 <span>blablabla</span>
             </div>
 
-            <div class="myTable handleWish table-hover">
-                <div id="wishes"> Zion Wishes </div>
-                <table class="table">
-                    <tbody class="wishesTable">
-                        <tr>
-
-                            <th>
-                                <div id="btn"></div>
-                            </th>
-                            <td><b>Haim Moshe</b></td>
-
-                        </tr>
-                        <tr>
-                            <th>
-                                <div id="btn"></div>
-                            </th>
-                            <td><b>Zion Baruchi</b></td>
-
-                        </tr>
-                        <tr>
-                            <th>
-                                <div id="btn"></div>
-                            </th>
-                            <td><b>Eran Zehavit</b></td>
-
-                        </tr>
-                        <tr>
-                            <th>
-                                <div id="btn"></div>
-                            </th>
-                            <td><b id="see_more">see more</b></td>
-
-                        </tr>
-                    </tbody>
-                </table>
-
-
-                <span class="badge badge-pill badge-primary">Goal:<br>Loss 10KG</span>
+            <div class="myTable handleWish table-hover ">
+                            <table class="table table-hover usersTable">
+                                <thead>
+                                  <tr>
+                                    <th colspan="4" scope="col" id="center">zion wishes</th>
+                                    
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" id="remove_top_border"></td> <div class="orangeDot"></div></th>
+                                        <td id="remove_top_border"><a class="nameLink" href="./ZionDiet.html">First meal - Banana</a></td>
+                                        <td id="remove_top_border"></td>
+                                        <td id="remove_top_border"></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><div class="orangeDot"></div></th>
+                                        <td><a class="nameLink" href="./ZionDiet.html">Second meal - Apple</a></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row"><div class="orangeDot"></div></th>
+                                        <td colspan="2"><a class="nameLink" href="./ZionDiet.html">Third meal - Eggs</a></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                          <th scope="row"><div class="orangeDot"></div></th>
+                                          <td colspan="3"><a class="nameLink" href="./ZionDiet.html">Third meal - Bread</a></td>
+                                      </tr>
+                                </tbody>
+                              </table>
+                        
+                              
+                <span class="badge badge-pill badge-primary goalBadge">Goal:<br>Loss 10KG</span>
                 <!-- <div class="goalText"> <b>Goal:<br>Loss 10KG</b></div> -->
 
                 <!-- <div class="durationText"><b>Duration:<br> 30days</br></div> -->
@@ -155,7 +134,7 @@
                 <button class="btn btn-info" id="colorButton">Random Color</button>
                 
                 <div class="clear"></div>
-                <div class="container">
+                <div class="container dietWorkoutCalendar">
                     <div class="row">
                         <div class="col-sm">
                             <span class="badge badge-pill badge-primary themeBadge"> <img
