@@ -24,11 +24,9 @@ $( function() {
             clicked = false;
           }
       }
-
     });
 
     $('.addIcon').on("click",function(){
-
         var table_row = $(
             '<tr>' +
             '<td>' +
@@ -47,7 +45,6 @@ $( function() {
             $("button").removeClass("active");
             $(this).toggleClass("active");
     })
-
   });
   
 

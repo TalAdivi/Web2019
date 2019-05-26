@@ -14,7 +14,6 @@ main, nav, article, aside, section, header, footer {
 }
 
 #mainWrapper{
-    /* width: 70%; */
     width: 1400px;
     margin: 0px auto;
 }
@@ -22,9 +21,7 @@ main, nav, article, aside, section, header, footer {
 #middleWrapper{
     margin: 0px auto;
     margin-left: 250px;
-    /* width: 85%; */
     width: 1000px;
-    height:1200px ;
 }
 
 .list-group{
@@ -38,6 +35,10 @@ main, nav, article, aside, section, header, footer {
     height: 130px;
     background-repeat: no-repeat;
 
+}
+
+.bckgorundNone{
+    background-color: unset !important;
 }
 
 .clear{
@@ -56,7 +57,6 @@ main, nav, article, aside, section, header, footer {
 #search{
     margin-top:60px;
     margin-left: 85px;  
-    /* background-color:yellow;  */
     float: left;
     height: 40px;
     width: 250px;
@@ -64,19 +64,16 @@ main, nav, article, aside, section, header, footer {
 
 
 #profile{
-    /* position: absolute; */
     position: relative;
     margin-top:10px;
     width: 78px;
     height: 104px;
     float: right;
-    /* background-color: #4dd0e1; */
     text-align: center;
 }
 
 #navBar{
     margin-top: 20px;
-    /* background-color: #4dd0e1; */
     width: 210px;
     height: 487px;
     float: left;
@@ -89,7 +86,6 @@ main, nav, article, aside, section, header, footer {
 #currPageTitle{
     display: block;
     position: absolute;
-    /* background-color: #4dd0e1; */
     float: left;
     width: 276px;
     height: 50px;
@@ -105,7 +101,6 @@ main, nav, article, aside, section, header, footer {
 .myTable{
     margin-top: 70px;
     position: relative;
-    /* background-color: #4dd0e1; */
     float: left;
     width: 923px;
 }
@@ -113,7 +108,6 @@ main, nav, article, aside, section, header, footer {
 #newUserTable{
     margin-top: 70px;
     position: relative;
-    /* background-color: #4dd0e1; */
     float: left;
     width: 923px;
     height: 355px;
@@ -187,7 +181,6 @@ a:hover{
 #custom-search-form button {
     border: 0;
     background: none;
-    /** belows styles are working good */
     padding: 2px 5px;
     margin-top: 2px;
     position: relative;
@@ -203,21 +196,20 @@ a:hover{
 }
 
 
-#wishes{   /*  wishes  title  */
+#wishes{   
     background-color: gray;
     margin-left: 460px;
     margin-top: 40px;
     color: white;
     height: 40px;    
     width: max-content;
-    /* width: 80px; */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 60%;
     font-size: 23px;
 }
 
-#title_name{  /*name title    */
+#title_name{  
     background-color: teal;
     margin-left: 125px; 
     color: white;
@@ -230,11 +222,10 @@ a:hover{
     display: inline-table;
 }
 
-#title_subject{   /*subject title    */
+#title_subject{  
     background-color: teal;
     position: relative;
     float: right;
-    /* margin-right: 905px; */
     color: white;
     height: 40px;
     width: 80px;
@@ -246,7 +237,7 @@ a:hover{
    
 }
 
-.table{   /*   table spaces    */
+.table{  
 width: 100%;
 border-top: none; 
 }
@@ -275,7 +266,6 @@ border-top: none;
 #wishesTable{
     margin-top: 70px;
     position: relative;
-    /* background-color: #4dd0e1;  */
     float: left;
     width: 923px;
     height: 355px;
@@ -301,7 +291,7 @@ height: 501px;
 .notes{
     background-color: #d9edf7;
     width: 474px;
-    height: 100px;
+    height: fit-content;;
     margin-top:68px;
     border-radius: 0px 30px 30px 0px;
 }
@@ -313,15 +303,6 @@ height: 501px;
 .wishesTable td{
     text-align: center;
 }
-
-/* .goalText{
-    margin-top: 100px;
-    background-color: #cccccc;
-    height: 60px;
-    width: 140px;
-    border-radius:30px;
-    text-align: center; 
-} */
 
 .progress{
     margin-top: 35px; 
@@ -338,7 +319,6 @@ height: 501px;
 
 .badge-primary{
     background-color: #6c757d !important;
-    /* margin-top: 80px; */
     color: #fff;
 }
 
@@ -347,9 +327,6 @@ height: 501px;
     margin: 0 50%;
 }
 
-.badge-danger{
-
-}
 .badge-success{
     margin-top: 5px;
     float:right;
@@ -381,53 +358,40 @@ a:hover{
     font-weight: bold;
 }
 
-/* .bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
-    content: none; }
-    .bc-icons-2 .breadcrumb-item.active {
-    color: #455a64; } */
 
 .chooseMeal{
     width: 291px;
     height: 268px;
-    /* background-color: #4dd0e1; */
     margin-top: 75px;
     float: left;
     position: relative;
     display: block;
-    /* border-style: solid; */
 }
 
+
+
 #mealSumBadge{
-    /* display: block !important; */
+    display: block !important;
     position: relative !important;
-    margin-top: 335px;
-    /* float: left; */
-    right: 240px;
 }
 
 .mealSumTalbe{
     width: 291px;
     height: 268px;
-    /* background-color: red; */
     margin-top: 20px;
     float: left;
-    position: absolute;
+    position: relative;
     display: block;
 }
 
 #dailyMealSumBadge{
     display: block;
     position: relative;
-   top:310px;
-   left: 64px;
-    float: left;
 }
 
 .dailyMealSumTalbe{
     width: 291px;
     height: 268px;
-    /* background-color: green; */
-    /* margin-top: 170px; */
     bottom: 130px;
     float: left;
     position: relative;
@@ -437,7 +401,6 @@ a:hover{
 .mealTable{
     width: 450px;
     height: 775px;
-    /* background-color: brown; */
     margin-top: 75px;
     float: right;
     position: relative;
@@ -450,16 +413,12 @@ a:hover{
     position: relative ;
     float: right;
     bottom:195px;
-    /* padding: 18px !important; */
     height: 60px;
     width: 143px;
     font-size: 1.5rem !important;
 
 }
 
-/* .btn-info:focus{
-
-} */
 
 #falseButton{
     margin-top: 5px;    
@@ -481,7 +440,6 @@ a:hover{
 }
 
 input.form-control {
-    /* width: 190px; */
     text-align: center;
   }
 
@@ -496,7 +454,14 @@ input.form-control {
       font-size: 1.1rem !important;
   }
 
- 
+  .remove_top_border_th{
+    border: none !important;
+}
+
+
+.nav-tabs{
+    border-bottom: unset !important;
+}
 
   .chooseMealRow{
     margin-top: 10px;
@@ -505,15 +470,7 @@ input.form-control {
     
   }
 
-  /* input.chooseMealSelect{
-      width;
-  }  */
- 
-  .form-control{
-      /* text-align: center; */
-  }
   .chooseMealActive{
-    /* font-weight: bold !important; */
     background-color: lightgray !important; 
   }
 
@@ -544,15 +501,12 @@ input.form-control {
 
 
 .table thead th{
-     /* border: none;  */
     border-bottom:none !important;
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!! */
 .table th{
     width: 80px;
 }
-/* !!!!!!!!!!!!!!!!!!!!!! */
 
 #remove_top_border{
     border-top: 0px;
@@ -584,3 +538,161 @@ input.form-control {
 .dietWorkoutCalendar{
     margin-top: 80px;
 }
+
+
+
+/* Media Querys */
+
+@media only screen and (max-width:480px){
+    #mainWrapper{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+.nav{
+    flex-wrap: unset !important;
+    width: 100%;
+}
+
+.nav-link{
+    margin-left: 4px;
+    padding: .1rem 0.5rem !important;
+}
+
+.nav-link img{
+    float: left;
+    margin-top: 0px;
+}
+
+.alert-primary{
+    position: relative !important;
+    width: 100% !important;
+    top: 85px;
+}
+
+#navBar{
+    height: 0px !important;
+    padding-left: 10px;
+}
+#currPageTitle{
+    top: 1px;
+    margin-bottom: 30px !important;
+}
+
+#search{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100% !important;
+}
+
+.notes{
+    float: left;
+    width: 100%;
+    height: fit-content;
+}
+
+.breadcrumb{
+    display: block !important;
+    margin-top: 122px !important;
+    float: left !important;
+    width: 100% !important;
+}
+
+#Wishes_title{
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
+#wishesTable{
+    width: 100% !important;
+}
+.nav-link span{
+    display: block;
+    height: 71px;
+    width: 100% !important;
+}
+
+.breadcrumb-item{
+    float: left;
+}
+
+#newUserTable{
+    width: 100% !important;
+}
+
+.nav-tabs{
+    border-bottom: 0px !important;
+}
+
+    #middleWrapper{
+        margin: 0px auto;
+        margin-left: 0px;
+        width: 100%;
+    } 
+
+    .myTable{
+        width: 100%;
+    }
+
+    .badge-secondary{
+        margin: 0px 40% !important;
+    }
+
+    .themeBadge{
+        margin: 10px;
+        width: 100% !important;
+    }
+
+    .themeBadge img{
+        right: unset;
+    }
+
+    .mealTable{
+        width: 100%;
+        height: unset;
+    }
+
+    .chooseMeal{
+        width: 100%;
+    }
+
+    .btn-outline-secondary{
+        width: 100%;
+    }
+
+
+    #mealSumBadge{
+        position: relative !important;
+        margin-top: unset !important;
+        left: unset !important;
+        right: unset !important;
+    }
+
+    .dailyMealSumTalbe{
+        width: 100% !important;
+        margin-top: 100px !important;
+        position: unset !important;
+    }
+
+    .mealSumTalbe{
+        width: 100% !important;
+    }
+
+    .done-btn{
+        bottom: unset !important;
+        margin-top: 50px !important;
+    }
+ 
+}
+
+/* on tablet its still looks good */
+@media only screen and (min-width:481px) and (max-width:768px){
+
+}
+
+@media only screen and (min-width:769px)
+{
+
+}
+
+/* /Media Querys */
