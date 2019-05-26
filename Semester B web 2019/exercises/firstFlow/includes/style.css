@@ -16,6 +16,7 @@ main, nav, article, aside, section, header, footer {
 #mainWrapper{
     width: 1400px;
     margin: 0px auto;
+   
 }
 
 #middleWrapper{
@@ -147,6 +148,13 @@ td:first-child, th:first-child {
     -moz-border-radius:6px;
 }
 
+#circle_table_another {
+    border-collapse:separate;
+    border:solid #dee2e6 1px !important;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
 .nameLink{
     color: #565656;
     font-weight: bold;
@@ -242,7 +250,7 @@ width: 100%;
 border-top: none; 
 }
 
-#see_more{
+.see_more{
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -485,7 +493,7 @@ input.form-control {
     border: 2px solid green;
 }
 
-#Wishes_title{
+.Wishes_title{
     margin-left: 360px;
     height: 40px;
     width: 100px;
@@ -508,9 +516,6 @@ input.form-control {
     width: 80px;
 }
 
-#remove_top_border{
-    border-top: 0px;
-}
 
 #center{
     text-align: center;
@@ -598,7 +603,7 @@ input.form-control {
     width: 100% !important;
 }
 
-#Wishes_title{
+.Wishes_title{
     width: 100% !important;
     margin-left: 0px !important;
 }
