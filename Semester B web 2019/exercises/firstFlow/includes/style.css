@@ -23,10 +23,15 @@ main, nav, article, aside, section, header, footer {
     margin: 0px auto;
     margin-left: 250px;
     width: 1000px;
+    clear: right;
 }
 
 .list-group{
     width: 50%;
+}
+
+h1{
+    font-size: 1.8rem !important;
 }
 
 #logo{ 
@@ -35,7 +40,6 @@ main, nav, article, aside, section, header, footer {
     width: 164px;
     height: 130px;
     background-repeat: no-repeat;
-
 }
 
 .bckgorundNone{
@@ -78,6 +82,7 @@ main, nav, article, aside, section, header, footer {
     width: 210px;
     height: 487px;
     float: left;
+    clear: both;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
@@ -390,6 +395,7 @@ a:hover{
     float: left;
     position: relative;
     display: block;
+    /* clear: right; */
 }
 
 #dailyMealSumBadge{
@@ -404,6 +410,7 @@ a:hover{
     float: left;
     position: relative;
     display: block;
+    clear: both;
 }
 
 .mealTable{
@@ -543,6 +550,7 @@ input.form-control {
 .dietWorkoutCalendar{
     margin-top: 80px;
 }
+
 
 
 
